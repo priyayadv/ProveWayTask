@@ -9,7 +9,7 @@ body{
 }
 /* Styling for container */
 .container{
-    background-color: aliceblue;
+    background-color: #fff9fa;
     width: 440px;
     height:fit-content;
     position: absolute;
@@ -35,7 +35,7 @@ body{
 .content{
 height: fit-content;
 padding:24px;
-border: 1px solid grey;
+border: 2px solid grey;
 margin-bottom: 16px;
 display: flex;
 flex-direction: column;
@@ -143,3 +143,6 @@ flex-direction: column;
     color: rgb(167, 158, 158);
  }
  .show {display:block;}
+ .show-selected-border{
+    border: 2px solid #ff7389;
+ }
