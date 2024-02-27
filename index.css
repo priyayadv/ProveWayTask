@@ -25,20 +25,19 @@ body{
    color:#ff7389;
 
  } 
- .heading:before, 
-        .heading:after { 
-            content: ""; 
-            flex: 1 1; 
-            border-bottom: 2px solid #cbcbcb; 
-            margin: auto; 
-        } 
+ .heading:before, .heading:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid #cbcbcb; 
+    margin: auto; 
+} 
 .content{
-height: fit-content;
-padding:24px;
-border: 1px solid #cbcbcb;
-margin-bottom: 16px;
-display: flex;
-flex-direction: column;
+    height: fit-content;
+    padding:24px;
+    border: 1px solid #cbcbcb;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
  } 
  .radionbtn{
     /* color: black; */
@@ -123,7 +122,8 @@ flex-direction: column;
  }
  .price{
     position: absolute;
-    right: 12px;
+    right: 14px;
+    
 
  }
  /* Add button */
