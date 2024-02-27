@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="heading"><span class="headingText">YAY! It's BOGO</span></h2>
+      <div class="content">
+        <div class="show-top-content">
+          <input
+            type="radio"
+            class="Radiobtn"
+            id="Radiobtn1"
+            name="offer-type"
+            checked="checked"
+            onchange="toggleHandler(Radiobtn1)"
+          />
+          <div class="leftContent">
+            <p class="counts">1 Unit <span class="offer">10%oFF</span></p>
+            <p class="text">Standard Price</p>
+          </div>
+          <div class="rightContent">
+            <p class="OfferPrice">$10.00 USD</p>
+            <p class="price">$24.00 USD</p>
+          </div>
+        </div>
+        <div class="show-bottom show" id="show-bottom1">
+          <div class="bottom-container">
+            <div class="selectContent">
+              <p class="header">Size</p>
+              <div class="slectSize">
+                #1
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+              <div class="slectSize">
+                #2
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+            </div>
+            <div class="selectContent">
+              <p class="header-color">Color</p>
+
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="show-top-content">
+          <input
+            type="radio"
+            class="Radiobtn"
+            id="Radiobtn2"
+            name="offer-type"
+            onchange="toggleHandler(Radiobtn2)"
+          />
+          <div class="leftContent">
+            <p class="counts">2 Unit <span class="offer">20%oFF</span></p>
+          </div>
+          <div class="rightContent">
+            <p class="OfferPrice">$18.00 USD</p>
+            <p class="price">$24.00 USD</p>
+          </div>
+        </div>
+        <div class="show-bottom" id="show-bottom2">
+          <div class="bottom-container">
+            <div class="selectContent">
+              <p class="header">Size</p>
+              <div class="slectSize">
+                #1
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+              <div class="slectSize">
+                #2
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+            </div>
+            <div class="selectContent">
+              <p class="header-color">Color</p>
+
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="show-top-content">
+          <input
+            type="radio"
+            class="Radiobtn"
+            id="Radiobtn3"
+            name="offer-type"
+            onchange="toggleHandler(Radiobtn3)"
+          />
+          <div class="leftContent">
+            <p class="counts">3 Unit <span class="offer">30%oFF</span></p>
+          </div>
+          <div class="rightContent">
+            <p class="OfferPrice">$24.00 USD</p>
+            <p class="price">$24.00 USD</p>
+          </div>
+        </div>
+        <div class="show-bottom" id="show-bottom3">
+          <div class="bottom-container">
+            <div class="selectContent">
+              <p class="header">Size</p>
+              <div class="slectSize">
+                #1
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+              <div class="slectSize">
+                #2
+                <select class="SizeUnit unit-selector">
+                  <option value="small">S</option>
+                  <option value="medium">M</option>
+                  <option value="large">L</option>
+                  <option value="extralarge">Xl</option>
+                </select>
+              </div>
+            </div>
+            <div class="selectContent">
+              <p class="header-color">color</p>
+
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+              <div class="select-color">
+                <select class="ColorUnit unit-selector">
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="delivery-option">
+        <p class="Delivery">Free Delivery</p>
+        <p class="Price">Total:$18.00USD</p>
+      </div>
+      <button class="AddButton">+ Add to Cart</button>
+      <p class="copy-right">@ Powered By Pumper</p>
+    </div>
+  </body>
+  <script src="Source.js"></script>
+</html>
